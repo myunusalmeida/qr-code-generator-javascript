@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+</head>
+<body>
+    <section class="qrcode">
+        <p class="text">Masukkan Alamat URL</p>
+        <input type="text" class="input" id="input" placeholder="Masukkan Link . . .">
+        <button class="btn" id="button" type="button">Generate</button>
+
+        <div class="qrcode-area" id="qrcode-area"></div>
+    </section>
+
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

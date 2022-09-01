@@ -1,0 +1,44 @@
+.qrcode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.qrcode .text {
+    font-size: 24px
+}
+
+.qrcode .input {
+    outline: none;
+    border: 1px solid #898989;
+    border-radius: 8px;
+    padding: 10px 15px;
+    width: 30%;
+    transition: .3s;
+}
+
+.qrcode .input:focus {
+    border-color: #4564E5;
+}
+
+.qrcode .btn {
+    outline: none;
+    border: 1px solid #4564E5;
+    background-color: #4564E5;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor:pointer
+}
+
+.qrcode .qrcode-area {
+    width: 180px;
+    height: 180px;
+    border: 1px dashed #898989;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 20px
+}
